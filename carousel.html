@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .carousel-container {
+            display: grid;
+            grid-template-columns: repeat(4, 100vw);
+            transform: translateX(0);
+            transition: transform 0.5s ease;
+        }
+
+        .slide {
+            width: 100%;
+            inset: 0 10px auto auto;
+        }
+
+        .overflowCont {
+            overflow: hidden;
+            position: relative;
+        }
+
+        .highlight {
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .highlight-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: white;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        .active{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="overflowCont">
+        <div class="carousel-container">
+            <img src="./Images/Main/Carsouel main 1.png" alt="Main1" class="slide">
+            <img src="./Images/Main/Carsouel main 2.png" alt="Main2" class="slide">
+        </div>
+        <div class="highlight"></div>
+    </div>
+
+    <script>
+        var carouselContainer = document.querySelector(".carousel-container");
+        var highlightDiv = document.querySelector(".highlight");
+        var translationValues = ['-0%', '-100%', '-200%', '-300%'];
+        var currentIndex = 0;
+
+        function updateTranslation() {
+            carouselContainer.style.transform = 'translateX(' + translationValues[currentIndex] + ')';
+            updateHighlight();
+            currentIndex = (currentIndex + 1) % translationValues.length;
+            console.log(currentIndex);
+        }
+
+        function updateHighlight() {
+            var highlightDots = '';
+            for (var i = 0; i < translationValues.length; i++) {
+                var dotClass = i === currentIndex ? 'highlight-dot active' : 'highlight-dot';
+                highlightDots += '<div class="' + dotClass + '" onclick="selectSlide(' + i + ')"></div>';
+            }
+            highlightDiv.innerHTML = highlightDots;
+        }
+
+        function selectSlide(index) {
+            currentIndex = index;
+            updateTranslation();
+        }
+
+        setInterval(updateTranslation, 2000);
+        updateTranslation();
+    </script>
+</body>
+</html>
