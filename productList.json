@@ -1,0 +1,182 @@
+[
+    {
+       "id": 1,
+       "grind" :"Whole Bean",
+       "roast" :"Medium",
+       "image" :"./Images/Product photos/goo_mr_wb.png",
+       "price" : 300,
+       "estate" :"Goorghully Estate",
+       "bestSeller" :true
+    },
+    {
+       "id": 2,
+       "grind" :"Whole Bean",
+       "roast" :"Dark",
+       "image" :"./Images/Product photos/goo_dr_wb.png",
+       "price" : 430,
+       "estate" :"Goorghully Estate",
+       "bestSeller" :true
+    }, 
+    {
+       "id": 3,
+       "grind" :"Whole Bean",
+       "roast" :"Medium",
+       "image" :"./Images/Product photos/jum_mr_wb.png",
+       "price" : 450,
+       "estate" :"Jumboor Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 4,
+       "grind" :"Whole Bean",
+       "roast" :"Dark",
+       "image" :"./Images/Product photos/nul_dr_wb.png",
+       "price" : 410,
+       "estate" :"Nullore Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 5,
+       "grind" :"Whole Bean",
+       "roast" :"Dark",
+       "image" :"./Images/Product photos/mar_dr_wb.png",
+       "price" : 410,
+       "estate" :"Margolly Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 6,
+       "grind" :"Mokapot",
+       "roast" :"Medium",
+       "image" :"./Images/Product photos/goo_mr_mk.png",
+       "price" : 300,
+       "estate" :"Goorghully Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 7,
+       "grind" :"Mokapot",
+       "roast" :"Dark",
+       "image" :"./Images/Product photos/goo_dr_mk.png",
+       "price" : 430,
+       "estate" :"Goorghully Estate",
+       "bestSeller" :false
+    }, 
+    {
+       "id": 8,
+       "grind" :"Mokapot",
+       "roast" :"Medium",
+       "image" :"./Images/Product photos/jum_mr_mk.png",
+       "price" : 450,
+       "estate" :"Jumboor Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 9,
+       "grind" :"Mokapot",
+       "roast" :"Dark",
+       "image" :"./Images/Product photos/nul_dr_mk.png",
+       "price" : 410,
+       "estate" :"Nullore Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 10,
+       "grind" :"Mokapot",
+       "roast" :"Dark",
+       "image" :"./Images/Product photos/mar_mr_mk.png",
+       "price" : 410,
+       "estate" :"Margolly Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 11,
+       "grind" :"Filter  Coffee",
+       "roast" :"Medium",
+       "image" :"./Images/Product photos/goo_mr_fc.png",
+       "price" : 300,
+       "estate" :"Goorghully Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 12,
+       "grind" :"Filter  Coffee",
+       "roast" :"Dark",
+       "image" :"./Images/Product photos/goo_dr_fc.png",
+       "price" : 430,
+       "estate" :"Goorghully Estate",
+       "bestSeller" :true
+    }, 
+    {
+       "id": 13,
+       "grind" :"Filter  Coffee",
+       "roast" :"Medium",
+       "image" :"./Images/Product photos/jum_mr_fc.png",
+       "price" : 450,
+       "estate" :"Jumboor Estate",
+       "bestSeller" :true
+    },
+    {
+       "id": 14,
+       "grind" :"Filter  Coffee",
+       "roast" :"Dark",
+       "image" :"./Images/Product photos/nul_dr_fc.png",
+       "price" : 410,
+       "estate" :"Nullore Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 15,
+       "grind" :"Filter  Coffee",
+       "roast" :"Dark",
+       "image" :"./Images/Product photos/mar_dr_fc.png",
+       "price" : 410,
+       "estate" :"Margolly Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 16,
+       "grind" :"French Press",
+       "roast" :"Medium",
+       "image" :"./Images/Product photos/goo_mr_fp.png",
+       "price" : 300,
+       "estate" :"Goorghully Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 17,
+       "grind" :"French Press",
+       "roast" :"Dark",
+       "image" :"./Images/Product photos/goo_dr_fp.png",
+       "price" : 430,
+       "estate" :"Goorghully Estate",
+       "bestSeller" :false
+    }, 
+    {
+       "id": 18,
+       "grind" :"French Press",
+       "roast" :"Medium",
+       "image" :"./Images/Product photos/jum_mr_fp.png",
+       "price" : 450,
+       "estate" :"Jumboor Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 19,
+       "grind" :"French Press",
+       "roast" :"Dark",
+       "image" :"./Images/Product photos/nul_dr_fp.png",
+       "price" : 410,
+       "estate" :"Nullore Estate",
+       "bestSeller" :false
+    },
+    {
+       "id": 20,
+       "grind" :"French Press",
+       "roast" :"Dark",
+       "image" :"./Images/Product photos/mar_dr_fp.png",
+       "price" : 410,
+       "estate" :"Margolly Estate",
+       "bestSeller" :true
+    }
+]
